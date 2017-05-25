@@ -3,11 +3,11 @@
   box-sizing: border-box; }
 
 body {
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
  background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
   background-size: cover;
-  position: relative; }
+ }
 
 h1 {
   font-size: 3em;

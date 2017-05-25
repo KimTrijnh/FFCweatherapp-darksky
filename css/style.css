@@ -3,8 +3,8 @@
   box-sizing: border-box; }
 
 body {
-  width: 100%;
-  // height: 700px;
+  width: 100vh;
+  height: 100vh;
  background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
   background-size: cover;
   position: relative; }
@@ -28,12 +28,16 @@ img {
    font-size: 2em;
    text-align: center;
    margin: 20px auto;
-   width: 450px;
+   width: 90%;
    border: 1px solid white;
    border-radius: 5px;
    padding: 10px;
   }
-
+@media screen and (min-width: 480px) {
+  .box {
+    width:450px;
+  }
+}
   .box p {
      color: white;
     margin: 10px auto; }

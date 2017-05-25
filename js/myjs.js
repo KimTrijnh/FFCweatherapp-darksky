@@ -2,18 +2,18 @@
 $(document).ready(function() {
    var weatherIcon = {
       // ICONS OBJECT
-      clearday: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Sunny_day-128.png",
-      clearnight: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Clear_Night-128.png",
-      rain: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Rainy_Day-128.png",
-      snow: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Snow-128.png",
-      sleet: "https://cdn1.iconfinder.com/data/icons/weather-forecast-meteorology-color-1/128/weather-sleet-128.png",
-      wind: "https://cdn3.iconfinder.com/data/icons/weather-16/256/High_Wind-128.png",
-      fog: "https://cdn4.iconfinder.com/data/icons/weather-line-set/24/icn-weather-fog-128.png",
-      cloudy: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Clouds-128.png",
-      partlycloudyday: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Cloudy_Day-128.png",
-      partlycloudynight: "https://cdn3.iconfinder.com/data/icons/weather-91/64/1-18-128.png",
-      thunderstorm: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Storm-128.png",
-      tornado: "https://cdn3.iconfinder.com/data/icons/weather-16/256/Tornado-128.png"
+      clearday: "https://image.ibb.co/kBx4Lv/003_sun.png",
+      clearnight: "https://image.ibb.co/hzpJfv/004_moon.png",
+      rain: "https://image.ibb.co/dpuvSa/010_rain.png",
+      snow: "https://image.ibb.co/eAqPLv/005_snowflake.png",
+      sleet: "https://image.ibb.co/in9qtF/hail_1.png",
+      wind: "https://image.ibb.co/fjs4Lv/009_windy.png",
+      fog: "https://image.ibb.co/gdbg0v/haze.png",
+      cloudy: "https://image.ibb.co/nAnh7a/008_cloudy.png",
+      partlycloudyday: "https://image.ibb.co/nAnh7a/008_cloudy.png",
+      partlycloudynight: "https://image.ibb.co/fGCtDF/002_cloudy_night.png",
+      thunderstorm: "https://image.ibb.co/fD24Lv/001_storm.png",
+      tornado: "https://image.ibb.co/m1pC7a/tornado_1.png"
    };
 
    function getLocation() {

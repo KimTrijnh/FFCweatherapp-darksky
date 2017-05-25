@@ -6,7 +6,8 @@ body {
   width: 100vw;
   height: 100vh;
   background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
 
 h1 {
   font-size: 3em;
@@ -17,7 +18,7 @@ h1 {
 .icon {
   color: #7c5301; }
 
-.weather-icon {
+img {
   width: 80px;
   height: auto; }
 
@@ -46,6 +47,8 @@ h1 {
 
 .foot {
   width: 70vw;
-  margin: 20px auto 0; }
+  margin: 20px auto 0;
+  position: absolute;
+  bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

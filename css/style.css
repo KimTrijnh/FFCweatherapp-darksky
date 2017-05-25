@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
+  background-size: cover; }
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 6vh;
+  color: white; }
+
+.icon {
+  color: #7c5301; }
+
+img {
+  width: 80px;
+  height: auto; }
+
+.box {
+  text-align: center;
+  font-size: 2em;
+  color: white; }
+  .box p {
+    margin: 10px auto; }
+  .box #weather, .box #temperature {
+    font-size: 1.5em;
+    color: white; }
+
+.btn {
+  width: 50px;
+  font-size: 1em;
+  color: #012868; }
+
+#btnF {
+  border-radius: 40% 0 0 40%;
+  border-right: 1px solid #2c4163; }
+
+#btnC {
+  border-radius: 0 40% 40% 0;
+  background: #9b9b9b; }
+
+.foot {
+  width: 70vw;
+  margin: 20px auto 0; }
+
+/*# sourceMappingURL=style.css.map */

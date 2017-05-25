@@ -3,9 +3,9 @@
   box-sizing: border-box; }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
+  width: 100%;
+  // height: 700px;
+ background: #606060 url("https://image.ibb.co/nG94na/gary_rockett_1466.jpg") top no-repeat fixed;
   background-size: cover;
   position: relative; }
 
@@ -19,18 +19,28 @@ h1 {
   color: #7c5301; }
 
 img {
-  width: 80px;
-  height: auto; }
+  width: 60px;
+  height: 60px; }
+
+
 
 .box {
-  text-align: center;
-  font-size: 2em;
-  color: white; }
+   font-size: 2em;
+   text-align: center;
+   margin: 20px auto;
+   width: 450px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+  }
+
   .box p {
+     color: white;
     margin: 10px auto; }
+
   .box #weather, .box #temperature {
     font-size: 1.5em;
-    color: white; }
+    }
 
 .btn {
   width: 50px;
@@ -45,10 +55,9 @@ img {
   border-radius: 0 40% 40% 0;
   background: #9b9b9b; }
 
-.foot {
-  width: 70vw;
+footer {
+  width: 100vw;
   margin: 20px auto 0;
-  position: absolute;
-  bottom: 0; }
+ }
 
 /*# sourceMappingURL=style.css.map */
